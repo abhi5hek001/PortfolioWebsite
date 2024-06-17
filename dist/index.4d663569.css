@@ -144,6 +144,99 @@ img.socialIcon {
   }
 }
 
+.header {
+  position: relative;
+}
+
+.loader {
+  z-index: 11;
+  background-color: red;
+  height: 2px;
+  animation: 3s ease-in-out loader;
+  position: relative;
+}
+
+.navbar {
+  z-index: 10;
+  background: #ffffffbf;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 1.3rem;
+  font-family: Garamond, serif;
+  font-size: 1.2rem;
+  display: flex;
+  position: fixed;
+  top: 0;
+  box-shadow: 0 2px 4px #0000001a;
+}
+
+.brand {
+  font-size: 1.5rem;
+}
+
+.nav-links {
+  gap: 3rem;
+  margin-right: 4rem;
+  display: flex;
+}
+
+.nav-link {
+  color: #000;
+  text-decoration: none;
+  transition: color .3s;
+}
+
+.nav-link:hover {
+  color: red;
+}
+
+.hamburger {
+  cursor: pointer;
+  background: none;
+  border: none;
+  margin-right: 3rem;
+  display: none;
+}
+
+.hamburger-icon {
+  width: 24px;
+  height: 24px;
+}
+
+@media (width <= 768px) {
+  .nav-links {
+    z-index: 9;
+    background: #fffffff2;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+    padding: 1rem 0;
+    transition: transform .3s ease-in-out;
+    display: none;
+    position: fixed;
+    top: 64px;
+    left: 0;
+    right: 0;
+    transform: translateY(-100%);
+  }
+
+  .nav-links.open {
+    display: flex;
+    transform: translateY(0);
+  }
+
+  .nav-link {
+    padding: .5rem 0;
+    font-size: 1.1rem;
+  }
+
+  .hamburger {
+    display: block;
+  }
+}
+
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -221,13 +314,8 @@ img.socialIcon {
 }
 
 @media screen and (width <= 1300px) {
-  .about-div {
-    width: 50%;
-    margin: 2rem auto;
-  }
-
   .home-avatar-div {
-    height: 100vh;
+    height: 130vh;
   }
 }
 
@@ -235,8 +323,7 @@ img.socialIcon {
   justify-content: center;
   align-items: center;
   width: 100vw;
-  height: 100vh;
-  max-height: 125vh;
+  height: 140vh;
   display: flex;
   overflow: hidden;
 }
@@ -250,7 +337,7 @@ img.socialIcon {
 
 @media screen and (width <= 1200px) {
   .home-avatar-div {
-    max-height: 123vh;
+    max-height: 130vh;
   }
 
   .home-avatar {
@@ -268,7 +355,11 @@ img.socialIcon {
 
 @media screen and (width <= 1100px) {
   .home-avatar-div {
-    max-height: 100vh;
+    max-height: 130vh;
+  }
+
+  .home-avatar {
+    object-fit: cover;
   }
 
   .name {
@@ -278,15 +369,11 @@ img.socialIcon {
 
 @media screen and (width <= 1000px) {
   .home-avatar-div {
-    max-height: 90vh;
+    max-height: 130vh;
   }
 
   .name {
     font-size: 5rem;
-  }
-
-  .title {
-    font-size: 1.5rem;
   }
 }
 
@@ -296,7 +383,61 @@ img.socialIcon {
   }
 
   .title {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (width <= 768px) {
+  .skills-list {
+    grid-gap: 1.1rem;
+  }
+
+  .name, .title {
+    display: none;
+  }
+
+  .details, section.padding {
+    padding: 0;
+  }
+}
+
+.about-div {
+  margin: 5rem 20rem;
+  padding: 5rem;
+}
+
+@media screen and (width <= 1450px) {
+  .about-div {
+    margin: 5rem 15rem;
+  }
+}
+
+@media screen and (width <= 1200px) {
+  .about-div {
+    margin: 5rem 10rem;
+  }
+}
+
+@media screen and (width <= 980px) {
+  .about-div {
+    margin: 5rem;
+  }
+}
+
+@media screen and (width <= 600px) {
+  .about-div {
+    padding: 3rem;
+  }
+}
+
+@media screen and (width <= 500px) {
+  .about-div {
+    margin: 3rem 2rem;
+    padding: 2rem;
+  }
+
+  .large {
+    font-size: 16px;
   }
 }
 
@@ -306,27 +447,6 @@ img.socialIcon {
     grid-template-columns: repeat(1, 1fr);
     margin: 1rem 3rem;
     display: grid;
-  }
-}
-
-@media screen and (width <= 700px) {
-  .skills-list {
-    grid-gap: 1.1rem;
-  }
-
-  .name {
-    position: absolute;
-    top: .5em;
-    left: -3em;
-    transform: rotateZ(270deg);
-  }
-
-  .title {
-    display: none;
-  }
-
-  .details, section.padding {
-    padding: 0;
   }
 }
 /*# sourceMappingURL=index.4d663569.css.map */

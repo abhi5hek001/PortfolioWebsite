@@ -1,5 +1,6 @@
 import React from "react";
 import image from "../images/abstract-shapes.avif";
+import "../styles.css";
 
 const imageAltText = "abstract background";
 
@@ -19,33 +20,19 @@ const detailOrQuote = `Hey there! I'm Abhishek Sahay, deeply passionate about fu
 
 const About = () => {
   return (
-    <section className="padding" id="about">
+    <section className="about-section" id="about">
       <img className="background" src={image} alt={imageAltText} />
-      <div
-        className="about-div"
-        style={{
-          backgroundColor: "rgba(255, 156, 45, 0.8)",
-          width: "50%",
-          borderRadius: "3em",
-          padding: "4rem",
-          fontFamily: "garamond",
-          margin: "3rem auto",
-          textAlign: "center",
-        }}
-      >
+      <div style={{ backgroundColor: "rgba(255, 163, 67, 0.75)", borderRadius: "30px"}} className="about-div">
         <h2>About Myself</h2>
         <p className="large">{description}</p>
         <hr />
-        <ul style={{ listStyleType: "circle" }} className="skills-list">
+        <ul className="skills-list">
           {skillsList.map((skill) => (
             <li key={skill}>{skill}</li>
           ))}
         </ul>
-
         <hr />
-        <p className="details" style={{ padding: "1rem 3rem 0" }}>
-          {detailOrQuote}
-        </p>
+        <p className="details">{detailOrQuote}</p>
       </div>
     </section>
   );

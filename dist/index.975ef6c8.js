@@ -27292,6 +27292,7 @@ var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _abstractShapesAvif = require("../images/abstract-shapes.avif");
 var _abstractShapesAvifDefault = parcelHelpers.interopDefault(_abstractShapesAvif);
+var _stylesCss = require("../styles.css");
 const imageAltText = "abstract background";
 const description = "I'm a passionate full-stack web developer pursuing Computer Science at Indian Institute of Information Technology, Sricity.";
 const skillsList = [
@@ -27305,7 +27306,7 @@ const skillsList = [
 const detailOrQuote = `Hey there! I'm Abhishek Sahay, deeply passionate about full-stack web development and committed to personal fitness. My journey blends the thrill of coding with a dedication to staying active, as I strive to create captivating web experiences while promoting a healthy lifestyle. Let's combine technology and fitness to build something truly impactful together!`;
 const About = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
-        className: "padding",
+        className: "about-section",
         id: "about",
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -27314,26 +27315,21 @@ const About = ()=>{
                 alt: imageAltText
             }, void 0, false, {
                 fileName: "src/Components/About.jsx",
-                lineNumber: 23,
+                lineNumber: 24,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "about-div",
                 style: {
-                    backgroundColor: "rgba(255, 156, 45, 0.8)",
-                    width: "50%",
-                    borderRadius: "3em",
-                    padding: "4rem",
-                    fontFamily: "garamond",
-                    margin: "3rem auto",
-                    textAlign: "center"
+                    backgroundColor: "rgba(255, 163, 67, 0.75)",
+                    borderRadius: "30px"
                 },
+                className: "about-div",
                 children: [
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
                         children: "About Myself"
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 36,
+                        lineNumber: 26,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -27341,57 +27337,51 @@ const About = ()=>{
                         children: description
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 37,
+                        lineNumber: 27,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {}, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 38,
+                        lineNumber: 28,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
-                        style: {
-                            listStyleType: "circle"
-                        },
                         className: "skills-list",
                         children: skillsList.map((skill)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                                 children: skill
                             }, skill, false, {
                                 fileName: "src/Components/About.jsx",
-                                lineNumber: 41,
+                                lineNumber: 31,
                                 columnNumber: 13
                             }, undefined))
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 39,
+                        lineNumber: 29,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {}, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 45,
+                        lineNumber: 34,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                         className: "details",
-                        style: {
-                            padding: "1rem 3rem 0"
-                        },
                         children: detailOrQuote
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 46,
+                        lineNumber: 35,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/Components/About.jsx",
-                lineNumber: 24,
+                lineNumber: 25,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/Components/About.jsx",
-        lineNumber: 22,
+        lineNumber: 23,
         columnNumber: 5
     }, undefined);
 };
@@ -27405,7 +27395,7 @@ $RefreshReg$(_c, "About");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../images/abstract-shapes.avif":"hDDiN","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"hDDiN":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../images/abstract-shapes.avif":"hDDiN","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../styles.css":"lW6qc"}],"hDDiN":[function(require,module,exports) {
 module.exports = require("d0e8bb8bd9ac1d04").getBundleURL("bLxZJ") + "abstract-shapes.fa342974.avif" + "?" + Date.now();
 
 },{"d0e8bb8bd9ac1d04":"lgJ39"}],"lgJ39":[function(require,module,exports) {
@@ -27611,7 +27601,7 @@ function registerExportsForReactRefresh(module1) {
     }
 }
 
-},{"7422ead32dcc1e6b":"786KC"}],"7GWgX":[function(require,module,exports) {
+},{"7422ead32dcc1e6b":"786KC"}],"lW6qc":[function() {},{}],"7GWgX":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$8b43 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -27637,176 +27627,178 @@ var _codeforcesSvg = require("../images/socials/codeforces.svg");
 var _codeforcesSvgDefault = parcelHelpers.interopDefault(_codeforcesSvg);
 const Footer = (props)=>{
     const { email, gitHub, instagram, linkedIn, name, twitter, youTube, codeforces } = props;
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
-        id: "footer",
-        style: {
-            display: "flex",
-            flexDirection: "column",
-            alignItems: "center",
-            gap: "2.5rem",
-            padding: "5rem 0 3rem",
-            backgroundColor: "rgb(255,163,67)",
-            width: "100vw"
-        },
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                style: {
-                    display: "flex",
-                    justifyContent: "center",
-                    gap: "2.5rem"
-                },
-                children: [
-                    email && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                        href: `mailto:${email}`,
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                            src: (0, _emailPngDefault.default),
-                            alt: "email",
-                            className: "socialIcon"
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
+            id: "footer",
+            style: {
+                display: "flex",
+                flexDirection: "column",
+                alignItems: "center",
+                gap: "2.5rem",
+                padding: "5rem 0 3rem",
+                backgroundColor: "rgb(255,163,67)",
+                width: "100vw"
+            },
+            children: [
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    style: {
+                        display: "flex",
+                        justifyContent: "center",
+                        gap: "2rem"
+                    },
+                    children: [
+                        email && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                            href: `mailto:${email}`,
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                src: (0, _emailPngDefault.default),
+                                alt: "email",
+                                className: "socialIcon"
+                            }, void 0, false, {
+                                fileName: "src/Components/Footer.jsx",
+                                lineNumber: 46,
+                                columnNumber: 15
+                            }, undefined)
                         }, void 0, false, {
                             fileName: "src/Components/Footer.jsx",
-                            lineNumber: 44,
+                            lineNumber: 45,
                             columnNumber: 13
-                        }, undefined)
-                    }, void 0, false, {
-                        fileName: "src/Components/Footer.jsx",
-                        lineNumber: 43,
-                        columnNumber: 11
-                    }, undefined),
-                    gitHub && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                        href: `https://github.com/${gitHub}`,
-                        target: "_blank",
-                        rel: "noopener noreferrer",
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                            src: (0, _githubPngDefault.default),
-                            alt: "GitHub",
-                            className: "socialIcon"
+                        }, undefined),
+                        gitHub && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                            href: `https://github.com/${gitHub}`,
+                            target: "_blank",
+                            rel: "noopener noreferrer",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                src: (0, _githubPngDefault.default),
+                                alt: "GitHub",
+                                className: "socialIcon"
+                            }, void 0, false, {
+                                fileName: "src/Components/Footer.jsx",
+                                lineNumber: 55,
+                                columnNumber: 15
+                            }, undefined)
                         }, void 0, false, {
                             fileName: "src/Components/Footer.jsx",
-                            lineNumber: 49,
+                            lineNumber: 50,
                             columnNumber: 13
-                        }, undefined)
-                    }, void 0, false, {
-                        fileName: "src/Components/Footer.jsx",
-                        lineNumber: 48,
-                        columnNumber: 11
-                    }, undefined),
-                    codeforces && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                        href: `https://codeforces.com/profile/${codeforces}`,
-                        target: "_blank",
-                        rel: "noopener noreferrer",
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                            src: (0, _codeforcesSvgDefault.default),
-                            alt: "Codeforces",
-                            className: "socialIcon"
+                        }, undefined),
+                        codeforces && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                            href: `https://codeforces.com/profile/${codeforces}`,
+                            target: "_blank",
+                            rel: "noopener noreferrer",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                src: (0, _codeforcesSvgDefault.default),
+                                alt: "Codeforces",
+                                className: "socialIcon"
+                            }, void 0, false, {
+                                fileName: "src/Components/Footer.jsx",
+                                lineNumber: 64,
+                                columnNumber: 15
+                            }, undefined)
                         }, void 0, false, {
                             fileName: "src/Components/Footer.jsx",
-                            lineNumber: 54,
+                            lineNumber: 59,
                             columnNumber: 13
-                        }, undefined)
-                    }, void 0, false, {
-                        fileName: "src/Components/Footer.jsx",
-                        lineNumber: 53,
-                        columnNumber: 11
-                    }, undefined),
-                    instagram && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                        href: `https://www.instagram.com/${instagram}`,
-                        target: "_blank",
-                        rel: "noopener noreferrer",
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                            src: (0, _instagramPngDefault.default),
-                            alt: "Instagram",
-                            className: "socialIcon"
-                        }, void 0, false, {
-                            fileName: "src/Components/Footer.jsx",
-                            lineNumber: 63,
-                            columnNumber: 13
-                        }, undefined)
-                    }, void 0, false, {
-                        fileName: "src/Components/Footer.jsx",
-                        lineNumber: 58,
-                        columnNumber: 11
-                    }, undefined),
-                    linkedIn && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                        href: `https://www.linkedin.com/in/${linkedIn}`,
-                        target: "_blank",
-                        rel: "noopener noreferrer",
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                            src: (0, _linkedinPngDefault.default),
-                            alt: "LinkedIn",
-                            className: "socialIcon"
+                        }, undefined),
+                        instagram && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                            href: `https://www.instagram.com/${instagram}`,
+                            target: "_blank",
+                            rel: "noopener noreferrer",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                src: (0, _instagramPngDefault.default),
+                                alt: "Instagram",
+                                className: "socialIcon"
+                            }, void 0, false, {
+                                fileName: "src/Components/Footer.jsx",
+                                lineNumber: 77,
+                                columnNumber: 15
+                            }, undefined)
                         }, void 0, false, {
                             fileName: "src/Components/Footer.jsx",
                             lineNumber: 72,
                             columnNumber: 13
-                        }, undefined)
-                    }, void 0, false, {
-                        fileName: "src/Components/Footer.jsx",
-                        lineNumber: 67,
-                        columnNumber: 11
-                    }, undefined),
-                    twitter && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                        href: `https://twitter.com/${twitter}`,
-                        target: "_blank",
-                        rel: "noopener noreferrer",
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                            src: twitterIcon,
-                            alt: "Twitter",
-                            className: "socialIcon"
+                        }, undefined),
+                        linkedIn && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                            href: `https://www.linkedin.com/in/${linkedIn}`,
+                            target: "_blank",
+                            rel: "noopener noreferrer",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                src: (0, _linkedinPngDefault.default),
+                                alt: "LinkedIn",
+                                className: "socialIcon"
+                            }, void 0, false, {
+                                fileName: "src/Components/Footer.jsx",
+                                lineNumber: 86,
+                                columnNumber: 15
+                            }, undefined)
                         }, void 0, false, {
                             fileName: "src/Components/Footer.jsx",
-                            lineNumber: 77,
+                            lineNumber: 81,
                             columnNumber: 13
-                        }, undefined)
-                    }, void 0, false, {
-                        fileName: "src/Components/Footer.jsx",
-                        lineNumber: 76,
-                        columnNumber: 11
-                    }, undefined),
-                    youTube && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                        href: `https://www.youtube.com/c/${youTube}`,
-                        target: "_blank",
-                        rel: "noopener noreferrer",
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                            src: youTubeIcon,
-                            alt: "YouTube",
-                            className: "socialIcon"
+                        }, undefined),
+                        twitter && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                            href: `https://twitter.com/${twitter}`,
+                            target: "_blank",
+                            rel: "noopener noreferrer",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                src: twitterIcon,
+                                alt: "Twitter",
+                                className: "socialIcon"
+                            }, void 0, false, {
+                                fileName: "src/Components/Footer.jsx",
+                                lineNumber: 95,
+                                columnNumber: 15
+                            }, undefined)
                         }, void 0, false, {
                             fileName: "src/Components/Footer.jsx",
-                            lineNumber: 86,
+                            lineNumber: 90,
+                            columnNumber: 13
+                        }, undefined),
+                        youTube && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                            href: `https://www.youtube.com/c/${youTube}`,
+                            target: "_blank",
+                            rel: "noopener noreferrer",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                src: youTubeIcon,
+                                alt: "YouTube",
+                                className: "socialIcon"
+                            }, void 0, false, {
+                                fileName: "src/Components/Footer.jsx",
+                                lineNumber: 104,
+                                columnNumber: 15
+                            }, undefined)
+                        }, void 0, false, {
+                            fileName: "src/Components/Footer.jsx",
+                            lineNumber: 99,
                             columnNumber: 13
                         }, undefined)
-                    }, void 0, false, {
-                        fileName: "src/Components/Footer.jsx",
-                        lineNumber: 81,
-                        columnNumber: 11
-                    }, undefined)
-                ]
-            }, void 0, true, {
-                fileName: "src/Components/Footer.jsx",
-                lineNumber: 35,
-                columnNumber: 7
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                className: "small",
-                style: {
-                    color: "black",
-                    fontSize: "1.1em"
-                },
-                children: [
-                    "\xa9 Created by ",
-                    name
-                ]
-            }, void 0, true, {
-                fileName: "src/Components/Footer.jsx",
-                lineNumber: 90,
-                columnNumber: 7
-            }, undefined)
-        ]
-    }, void 0, true, {
-        fileName: "src/Components/Footer.jsx",
-        lineNumber: 23,
-        columnNumber: 5
-    }, undefined);
+                    ]
+                }, void 0, true, {
+                    fileName: "src/Components/Footer.jsx",
+                    lineNumber: 37,
+                    columnNumber: 9
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                    className: "small",
+                    style: {
+                        color: "black",
+                        fontSize: "1.1em"
+                    },
+                    children: [
+                        "\xa9 Created by ",
+                        name
+                    ]
+                }, void 0, true, {
+                    fileName: "src/Components/Footer.jsx",
+                    lineNumber: 108,
+                    columnNumber: 9
+                }, undefined)
+            ]
+        }, void 0, true, {
+            fileName: "src/Components/Footer.jsx",
+            lineNumber: 25,
+            columnNumber: 7
+        }, undefined)
+    }, void 0, false);
 };
 _c = Footer;
 Footer.defaultProps = {
@@ -28607,80 +28599,140 @@ parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
-var _stylesCss = require("../styles.css");
+var _stylesCss = require("../styles.css"); // Ensure you have a styles.css file in your project
+var _s = $RefreshSig$();
 const Header = ()=>{
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
+    _s();
+    const [isOpen, setIsOpen] = (0, _react.useState)(false);
+    const toggleMenu = ()=>{
+        setIsOpen(!isOpen);
+    };
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("header", {
+        className: "header",
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                style: {
-                    height: "2px",
-                    backgroundColor: "red",
-                    animation: "loader 3s ease-in-out",
-                    zIndex: "11",
-                    position: "relative"
-                }
+                className: "loader"
             }, void 0, false, {
                 fileName: "src/Components/Header.jsx",
-                lineNumber: 7,
-                columnNumber: 6
+                lineNumber: 13,
+                columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 className: "navbar",
-                style: {
-                    position: "fixed",
-                    display: "flex",
-                    justifyContent: "center",
-                    gap: "3rem",
-                    background: "rgba(255,255,255,0.75)",
-                    padding: "1.3rem",
-                    top: 0,
-                    fontFamily: "garamond",
-                    fontSize: "1.2rem",
-                    width: "100%",
-                    zIndex: 10
-                },
                 children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                        href: "#home",
-                        children: "Home"
-                    }, void 0, false, {
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "brand",
+                        style: {
+                            fontFamily: "garamond"
+                        },
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                style: {
+                                    fontSize: "2rem",
+                                    fontWeight: "bodler",
+                                    color: "rgba(163, 108, 37, 1)"
+                                },
+                                children: "Abhishek"
+                            }, void 0, false, {
+                                fileName: "src/Components/Header.jsx",
+                                lineNumber: 15,
+                                columnNumber: 65
+                            }, undefined),
+                            " SAHAY"
+                        ]
+                    }, void 0, true, {
                         fileName: "src/Components/Header.jsx",
-                        lineNumber: 32,
-                        columnNumber: 7
+                        lineNumber: 15,
+                        columnNumber: 9
                     }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                        href: "#about",
-                        children: "About"
-                    }, void 0, false, {
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("nav", {
+                        className: `nav-links ${isOpen ? "open" : ""}`,
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                href: "#home",
+                                className: "nav-link",
+                                children: "Home"
+                            }, void 0, false, {
+                                fileName: "src/Components/Header.jsx",
+                                lineNumber: 17,
+                                columnNumber: 11
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                href: "#about",
+                                className: "nav-link",
+                                children: "About"
+                            }, void 0, false, {
+                                fileName: "src/Components/Header.jsx",
+                                lineNumber: 18,
+                                columnNumber: 11
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                href: "#portfolio",
+                                className: "nav-link",
+                                children: "Portfolio"
+                            }, void 0, false, {
+                                fileName: "src/Components/Header.jsx",
+                                lineNumber: 19,
+                                columnNumber: 11
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                href: "#footer",
+                                className: "nav-link",
+                                children: "Contact"
+                            }, void 0, false, {
+                                fileName: "src/Components/Header.jsx",
+                                lineNumber: 20,
+                                columnNumber: 11
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
                         fileName: "src/Components/Header.jsx",
-                        lineNumber: 33,
-                        columnNumber: 7
+                        lineNumber: 16,
+                        columnNumber: 9
                     }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                        href: "#portfolio",
-                        children: "Portfolio"
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                        onClick: toggleMenu,
+                        className: "hamburger",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
+                            className: "hamburger-icon",
+                            fill: "none",
+                            stroke: "currentColor",
+                            viewBox: "0 0 24 24",
+                            xmlns: "http://www.w3.org/2000/svg",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                strokeLinecap: "round",
+                                strokeLinejoin: "round",
+                                strokeWidth: "2",
+                                d: "M4 6h16M4 12h16m-7 6h7"
+                            }, void 0, false, {
+                                fileName: "src/Components/Header.jsx",
+                                lineNumber: 30,
+                                columnNumber: 13
+                            }, undefined)
+                        }, void 0, false, {
+                            fileName: "src/Components/Header.jsx",
+                            lineNumber: 23,
+                            columnNumber: 11
+                        }, undefined)
                     }, void 0, false, {
                         fileName: "src/Components/Header.jsx",
-                        lineNumber: 34,
-                        columnNumber: 7
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                        href: "#footer",
-                        children: "Contact"
-                    }, void 0, false, {
-                        fileName: "src/Components/Header.jsx",
-                        lineNumber: 35,
-                        columnNumber: 7
+                        lineNumber: 22,
+                        columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/Components/Header.jsx",
-                lineNumber: 16,
+                lineNumber: 14,
                 columnNumber: 7
             }, undefined)
         ]
-    }, void 0, true);
+    }, void 0, true, {
+        fileName: "src/Components/Header.jsx",
+        lineNumber: 12,
+        columnNumber: 5
+    }, undefined);
 };
+_s(Header, "+sus0Lb0ewKHdwiUhiTAJFoFyQ0=");
 _c = Header;
 exports.default = Header;
 var _c;
@@ -28703,14 +28755,11 @@ parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
-var _downArrowSvg = require("../images/down-arrow.svg");
-var _downArrowSvgDefault = parcelHelpers.interopDefault(_downArrowSvg);
 var _propTypes = require("prop-types");
 var _propTypesDefault = parcelHelpers.interopDefault(_propTypes);
 var _characterJpg = require("../images/character.jpg");
 var _characterJpgDefault = parcelHelpers.interopDefault(_characterJpg);
 var _stylesCss = require("../styles.css");
-const imageAltText = "A smart teenager doing development in his laptop";
 const Home = ({ name, title })=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
         id: "home",
@@ -28718,7 +28767,6 @@ const Home = ({ name, title })=>{
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 className: "home-avatar-div",
                 style: {
-                    height: "125vh",
                     width: "100vw"
                 },
                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -28732,12 +28780,12 @@ const Home = ({ name, title })=>{
                     alt: ""
                 }, void 0, false, {
                     fileName: "src/Components/Home.jsx",
-                    lineNumber: 13,
+                    lineNumber: 10,
                     columnNumber: 7
                 }, undefined)
             }, void 0, false, {
                 fileName: "src/Components/Home.jsx",
-                lineNumber: 12,
+                lineNumber: 9,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28754,7 +28802,7 @@ const Home = ({ name, title })=>{
                         children: name
                     }, void 0, false, {
                         fileName: "src/Components/Home.jsx",
-                        lineNumber: 16,
+                        lineNumber: 13,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
@@ -28762,43 +28810,19 @@ const Home = ({ name, title })=>{
                         children: title
                     }, void 0, false, {
                         fileName: "src/Components/Home.jsx",
-                        lineNumber: 17,
+                        lineNumber: 14,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/Components/Home.jsx",
-                lineNumber: 15,
-                columnNumber: 7
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                style: {
-                    position: "absolute",
-                    bottom: "18rem",
-                    right: "5%"
-                },
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                    href: "#portfolio",
-                    src: (0, _downArrowSvgDefault.default),
-                    style: {
-                        height: "3rem",
-                        width: "3rem"
-                    },
-                    alt: imageAltText
-                }, void 0, false, {
-                    fileName: "src/Components/Home.jsx",
-                    lineNumber: 20,
-                    columnNumber: 9
-                }, undefined)
-            }, void 0, false, {
-                fileName: "src/Components/Home.jsx",
-                lineNumber: 19,
+                lineNumber: 12,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/Components/Home.jsx",
-        lineNumber: 11,
+        lineNumber: 8,
         columnNumber: 5
     }, undefined);
 };
@@ -28820,10 +28844,7 @@ $RefreshReg$(_c, "Home");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../images/down-arrow.svg":"b5nCi","prop-types":"7wKI2","../images/character.jpg":"a2d3n","../styles.css":"lW6qc","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"b5nCi":[function(require,module,exports) {
-module.exports = require("f31fa9236ffac6fa").getBundleURL("bLxZJ") + "down-arrow.1037091f.svg" + "?" + Date.now();
-
-},{"f31fa9236ffac6fa":"lgJ39"}],"a2d3n":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","prop-types":"7wKI2","../images/character.jpg":"a2d3n","../styles.css":"lW6qc","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"a2d3n":[function(require,module,exports) {
 module.exports = require("a98ade3d45696a07").getBundleURL("bLxZJ") + "character.92901c83.jpg" + "?" + Date.now();
 
 },{"a98ade3d45696a07":"lgJ39"}],"lW6qc":[function() {},{}],"lCaEt":[function(require,module,exports) {
